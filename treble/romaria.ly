@@ -2,12 +2,12 @@
 \version "2.16.0"
 
 \language "english"
-\include "resources/page-settings.ly"
+\include "../resources/page-settings.ly"
 
 title = "Romaria"
 composer = "Renato Teixeira"
 
-melody = \transpose a c' \relative c' {
+melody = \relative c' {
   \clef treble
   \key a \major
   
@@ -57,4 +57,4 @@ melody = \transpose a c' \relative c' {
 } 
 
 
-\include "resources/do.ly"
+\include "../resources/do.ly"
